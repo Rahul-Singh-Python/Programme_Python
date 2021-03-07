@@ -14,8 +14,8 @@ client = Client(account_sid, auth_token)
 message = client.messages \
     .create(
          body='Hello Mr. Mayur Your Secure Device OTP is - ' + str(otp) + ' now your mobile is hacked!\n Byby...',
-         from_='+19362158694',
-         to='+918460911949'
+         from_='twillow Number',
+         to='send another person Number'
      )
 
 # print(message.sid)
